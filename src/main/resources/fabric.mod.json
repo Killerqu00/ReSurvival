@@ -18,7 +18,7 @@
       "com.killerqu.resurvival.client.ReSurvivalClient"
     ],
     "main": [
-      "com.killerqu.resurvival.ReSurvival"
+      "com.killerqu.resurvival.main.ReSurvival"
     ]
   },
   "mixins": [
