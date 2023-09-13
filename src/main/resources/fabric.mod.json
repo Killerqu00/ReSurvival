@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "resurvival",
+  "version": "${version}",
+  "name": "ReSurvival",
+  "description": "",
+  "authors": [
+    "Killerqu00"
+  ],
+  "contact": {
+    "repo": "https://github.com/Killerqu00/ReSurvival"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/resurvival/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.killerqu.resurvival.client.ReSurvivalClient"
+    ],
+    "main": [
+      "com.killerqu.resurvival.ReSurvival"
+    ]
+  },
+  "mixins": [
+    "resurvival.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
